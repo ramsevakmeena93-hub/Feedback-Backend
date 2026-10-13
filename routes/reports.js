@@ -11,11 +11,11 @@ const { log } = require('../services/logger');
 // ─────────────────────────────────────────────────────────────────────────────
 
 /** Get the first name of a user (for fallback name-regex matching) */
-async function getFacultyFirstName(userId) {
+async function getFacultyFullName(userId) {
   try {
     const User = require('../models/User');
     const user = await User.findById(userId).select('name');
-    return user ? user.name.split(' ')[0] : null;
+    return user ? user.name : null;
   } catch { return null; }
 }
 
@@ -35,8 +35,8 @@ async function getFacultyFirstName(userId) {
  * @param {boolean} useAssignments — if true, restrict to assigned subjectCodes
  */
 async function buildFacultyQuery(userId, extraFilters = {}, useAssignments = true) {
-  const firstName = await getFacultyFirstName(userId);
-  const nameRegex = firstName ? new RegExp(firstName, 'i') : null;
+  const fullName = await getFacultyFullName(userId);
+  const nameRegex = fullName ? new RegExp(fullName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\const nameRegex = firstName ? new RegExp(firstName, 'i') : null;'), 'i') : null;
 
   // Base: match by exact userId OR by name (backward compat)
   const orClauses = [{ facultyUserId: userId }];
@@ -364,7 +364,7 @@ router.patch('/:id/edit', authMiddleware, requireAnyRole('hod'), async (req, res
         let fid = report.facultyUserId;
         if (!fid && report.facultyName) {
           const User = require('../models/User');
-          const fu   = await User.findOne({ name: { $regex: report.facultyName.split(' ')[0], $options: 'i' } });
+          const fu   = await User.findOne({ name: { $regex: report.facultyName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\const fu   = await User.findOne({ name: { $regex: report.facultyName.split(' ')[0], $options: 'i' } });'), $options: 'i' } });
           if (fu) fid = fu._id;
         }
         if (fid) {
@@ -626,8 +626,8 @@ router.get('/:id', authMiddleware, async (req, res) => {
       const isFaculty = report.facultyUserId?.toString() === req.user.id;
       if (!isHOD && !isFaculty) {
         // Last chance: name regex
-        const firstName = await getFacultyFirstName(req.user.id);
-        const nameMatch = firstName && new RegExp(firstName, 'i').test(report.facultyName?.split(' ')[0]);
+        const fullName = await getFacultyFullName(req.user.id);
+        const nameMatch = fullName && new RegExp(fullName.replace(/[-\/\\\\^\$*+?.()|[\]{}]/g, '\\$&'), 'i').test(report.facultyName);
         if (!nameMatch) return res.status(403).json({ error: 'Access denied' });
       }
     }
@@ -717,3 +717,5 @@ router.get('/submission/:submissionId', authMiddleware, requireRole('vc'), async
 });
 
 module.exports = router;
+
+
