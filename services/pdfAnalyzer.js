@@ -432,6 +432,15 @@ async function extractMetaFromBuffer(buffer) {
     });
     const dataParts = (rowMap[dataY] || []).filter(i => i.x >= secondCourseX - 10 && i.x < nX - 5).map(i => i.str);
     meta.programme = [...aboveParts, ...dataParts].join(' ').trim().replace(/\s+/g, ' ');
+  // Strip junk phrases that leak into the course name column
+  const JUNK_PHRASES = [
+    /submitted\s+answers?/gi, /print\s+out/gi, /registered\s+students?/gi,
+    /response\s*%?/gi, /submitted\s*%?/gi, /answers?\s*%?/gi,
+    /\d+\s*\/\s*\d+/g,   // page numbers like 1/3
+    /\d{1,3}%/g,          // percentages like 45%
+  ];
+  JUNK_PHRASES.forEach(pattern => { meta.programme = meta.programme.replace(pattern, ''); });
+  meta.programme = meta.programme.trim().replace(/\s+/g, ' ').replace(/^[-\s]+|[-\s]+$/g, '').trim();
   }
 
   // Semester: single value at "Semester" column (width ~40px)
@@ -595,3 +604,4 @@ async function extractMetaFromPDF(buffer) {
 }
 
 module.exports = { analyzePDF, analyzePDFBuffer, extractMetaFromPDF, convertDriveLink };
+

@@ -362,7 +362,7 @@ async function generateFeedbackReportPDF({ submission, reports, hodUser, vcUser,
     const attLines  = calcLines(attText,             155, FS);
     const appLines  = calcLines(appText,             145, FS);
     const nameLines = calcLines(r.facultyName || "-", 90, FS);
-    const progLines = calcLines(r.programme   || "-", 70, FS);
+    const progLines = calcLines(cleanProgramme(r.programme), 70, FS);
     const maxLines  = Math.max(attLines, appLines, nameLines, progLines, 1);
     // Adjusted row padding
     const ROW_H     = Math.min(500, Math.max(60, maxLines * LH + 20));
@@ -398,7 +398,7 @@ async function generateFeedbackReportPDF({ submission, reports, hodUser, vcUser,
       { v: String(i + 1),                                  bold: true,  center: true },
       { v: r.facultyName || "-" },
       { v: codeBatch },
-      { v: r.programme  || "-" },
+      { v: cleanProgramme(r.programme) },
       { v: r.semester   || "-",                            center: true },
       { v: ffi != null ? ffi.toFixed(2) : "-",            color: ffiColor, bold: true, center: true },
       { v: r.responseCount != null ? String(r.responseCount) : (r.totalResponses != null ? String(r.totalResponses) : "-"), center: true },
@@ -648,3 +648,4 @@ async function generateFeedbackReportPDF({ submission, reports, hodUser, vcUser,
 }
 
 module.exports = { generateFeedbackReportPDF };
+
