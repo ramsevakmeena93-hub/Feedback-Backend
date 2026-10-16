@@ -1,0 +1,76 @@
+comment_id,comment,label,issue_category,language,source,is_real_student_feedback
+SYN-0001,"Sir, concepts basic se samjhaiye, direct advanced topic par jaane se samajh nahi aata.",NEEDS_ATTENTION,TEACHING_CLARITY,Hindi/Hinglish (Roman),synthetic,False
+SYN-0002,"With respect, the lecture mostly repeats slides instead of explaining the ideas. Please start with a simple example and then increase the difficulty. Many students may be facing the same issue.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0003,The class ends before the difficult part is clarified. Please start with a simple example and then increase the difficulty. This makes preparation more difficult.,NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0004,"I want to learn well, but the core concepts are not explained clearly; please provide a short recap after each major topic.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0005,"The subject is useful, however the topic is explained too quickly to follow. Please explain the reasoning instead of only giving the final answer.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0006,"With respect, the explanation leaves several doubts unresolved. Please explain each concept step by step. Please consider this feedback seriously.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0007,The core concepts are not explained clearly. Please start with a simple example and then increase the difficulty. This would improve the learning experience.,NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0008,"Overall the course has value, however the same confusing explanation is repeated without a simpler alternative; please explain each concept step by step.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0009,"With respect to the faculty, the explanation jumps straight to advanced topics without covering the basics. Please explain the reasoning instead of only giving the final answer.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0010,"With respect, the same confusing explanation is repeated without a simpler alternative. Please explain the prerequisite concepts first. Please make a clear improvement.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0011,The same confusing explanation is repeated without a simpler alternative. Please pause and check whether students have understood. Many students may be facing the same issue.,NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0012,"Some parts of the class are good, but the explanation jumps straight to advanced topics without covering the basics; please explain each concept step by step.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0013,"The faculty is supportive, but the explanation leaves several doubts unresolved. Please explain the reasoning instead of only giving the final answer.",NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0014,I am finding it difficult because the explanation leaves several doubts unresolved. Please revisit the confusing part in the next class. This makes preparation more difficult.,NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0015,The same confusing explanation is repeated without a simpler alternative. Please connect the explanation to a practical use case. This makes preparation more difficult.,NEEDS_ATTENTION,TEACHING_CLARITY,English,synthetic,False
+SYN-0032,"Mam, class ki speed bahut fast hai, please thoda slow padhaiye.",NEEDS_ATTENTION,PACING_AND_TIME,Hindi/Hinglish (Roman),synthetic,False
+SYN-0063,"Lab mein sirf code copy karwate hain, khud code likhne aur run karne ka time nahi milta.",NEEDS_ATTENTION,PRACTICAL_LAB,Hindi/Hinglish (Roman),synthetic,False
+SYN-0094,"Notes time par share nahi hote, exam se pehle revision karna mushkil ho jata hai.",NEEDS_ATTENTION,NOTES_AND_MATERIALS,Hindi/Hinglish (Roman),synthetic,False
+SYN-0101,"Some parts of the class are good, but the lecture spends too long on minor details and rushes important concepts. Please schedule an extra session for difficult topics.",NEEDS_ATTENTION,PACING_AND_TIME,English,synthetic,False
+SYN-0103,The teaching pace is too fast for many students. Please give students time to attempt the exercise themselves. This is affecting our understanding.,NEEDS_ATTENTION,PACING_AND_TIME,English,synthetic,False
+SYN-0119,The class moves to the next slide before students can understand the current one. Please slow down and allow time to understand each step. Many students may be facing the same issue.,NEEDS_ATTENTION,PACING_AND_TIME,English,synthetic,False
+SYN-0123,The teaching pace is too fast for many students. Please leave time for note-taking. This would improve the learning experience.,NEEDS_ATTENTION,PACING_AND_TIME,English,synthetic,False
+SYN-0125,"Doubt poochne par proper explanation nahi milti, please doubt ke liye alag time rakhiye.",NEEDS_ATTENTION,DOUBT_SUPPORT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0156,"Quiz mein syllabus se bahar ke questions the, marking scheme bhi clear nahi thi.",NEEDS_ATTENTION,ASSESSMENT_AND_FAIRNESS,Hindi/Hinglish (Roman),synthetic,False
+SYN-0187,"Class interactive nahi hoti, please examples aur discussion include kijiye.",NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0201,"I appreciate the effort, but lab tasks are completed without discussing the output. Please include a small practical assessment after each experiment.",NEEDS_ATTENTION,PRACTICAL_LAB,English,synthetic,False
+SYN-0203,Lab tasks are completed without discussing the output. Please increase the number of lab sessions. It would help students learn more effectively.,NEEDS_ATTENTION,PRACTICAL_LAB,English,synthetic,False
+SYN-0211,There is too little hands-on practice in the lab. Please explain the purpose of each line of code. It would help students learn more effectively.,NEEDS_ATTENTION,PRACTICAL_LAB,English,synthetic,False
+SYN-0218,"Lab ke computers baar-baar kaam nahi karte, practical complete nahi ho pata.",NEEDS_ATTENTION,FACILITIES_AND_EQUIPMENT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0249,"Syllabus quiz se pehle complete nahi hua, please course planning improve kijiye.",NEEDS_ATTENTION,COURSE_PLANNING,Hindi/Hinglish (Roman),synthetic,False
+SYN-0280,"Assignment ki instructions clear nahi hoti, deadline se pehle proper details share kijiye.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,Hindi/Hinglish (Roman),synthetic,False
+SYN-0301,"The subject is useful, however the slides are not organized unit by unit. Please make the slides easier to read.",NEEDS_ATTENTION,NOTES_AND_MATERIALS,English,synthetic,False
+SYN-0303,The course material is shared too late. Please provide practice questions with solutions. More support is needed in this area.,NEEDS_ATTENTION,NOTES_AND_MATERIALS,English,synthetic,False
+SYN-0311,Theory samajh nahi aati kyunki sir examples ke bina slides read karte hain.,NEEDS_ATTENTION,TEACHING_CLARITY,Hindi/Hinglish (Roman),synthetic,False
+SYN-0342,"Ma'am please board par step by step solve kijiye, sirf PPT se samajhna difficult hai.",NEEDS_ATTENTION,PACING_AND_TIME,Hindi/Hinglish (Roman),synthetic,False
+SYN-0373,"Lab mein practical work kam hota hai, zyada hands-on coding karwaiye.",NEEDS_ATTENTION,PRACTICAL_LAB,Hindi/Hinglish (Roman),synthetic,False
+SYN-0402,"With respect, there is not enough time for doubt solving. Please offer a regular doubt-clearing session. Please make a clear improvement.",NEEDS_ATTENTION,DOUBT_SUPPORT,English,synthetic,False
+SYN-0404,Class mein doubts clear karne ke liye time nahi milta.,NEEDS_ATTENTION,NOTES_AND_MATERIALS,Hindi/Hinglish (Roman),synthetic,False
+SYN-0408,"Although the topic is important, students hesitate to ask questions because the classroom feels unapproachable; please set aside dedicated time for doubt solving.",NEEDS_ATTENTION,DOUBT_SUPPORT,English,synthetic,False
+SYN-0411,The instructor moves on before checking whether the doubt is resolved. Please set aside dedicated time for doubt solving. It would help students learn more effectively.,NEEDS_ATTENTION,DOUBT_SUPPORT,English,synthetic,False
+SYN-0431,Students hesitate to ask questions because the classroom feels unapproachable. Please encourage students to report confusing topics. This would improve the learning experience.,NEEDS_ATTENTION,DOUBT_SUPPORT,English,synthetic,False
+SYN-0435,Notes unit-wise aur easy language mein provide kijiye.,NEEDS_ATTENTION,DOUBT_SUPPORT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0466,"Sir ki awaaz last benches tak clear nahi aati, microphone use kijiye.",NEEDS_ATTENTION,ASSESSMENT_AND_FAIRNESS,Hindi/Hinglish (Roman),synthetic,False
+SYN-0497,"Quiz ke baad answers discuss nahi hote, mistakes samajh nahi aati.",NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0503,The quiz covers topics that were rushed or not completed. Please provide clear instructions and examples. This would improve the learning experience.,NEEDS_ATTENTION,ASSESSMENT_AND_FAIRNESS,English,synthetic,False
+SYN-0511,Quiz questions seem outside the topics covered in class. Please review disputed marks transparently. More support is needed in this area.,NEEDS_ATTENTION,ASSESSMENT_AND_FAIRNESS,English,synthetic,False
+SYN-0528,Computer lab ka internet slow hai aur required software bhi available nahi hai.,NEEDS_ATTENTION,FACILITIES_AND_EQUIPMENT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0559,"Topics jaldi-jaldi complete karte hain, important concepts revise nahi hote.",NEEDS_ATTENTION,COURSE_PLANNING,Hindi/Hinglish (Roman),synthetic,False
+SYN-0590,"Students ko individual guidance kam milti hai, please support improve kijiye.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,Hindi/Hinglish (Roman),synthetic,False
+SYN-0601,"The instructor is helpful at times, but the explanation relies on slides with little discussion. Please use a microphone when needed.",NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,English,synthetic,False
+SYN-0603,The lecture becomes monotonous and difficult to stay focused on. Please vary the teaching method to maintain engagement. This issue comes up repeatedly.,NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,English,synthetic,False
+SYN-0608,"I appreciate the effort, but the class is not interactive; please add relatable examples and small activities.",NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,English,synthetic,False
+SYN-0613,"The class has potential, but the lecture lacks practical or relatable examples. Please include short discussions and questions during the lecture.",NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,English,synthetic,False
+SYN-0621,"Madam examples deti hain lekin steps explain nahi hote, please reasoning bhi samjhaiye.",NEEDS_ATTENTION,TEACHING_CLARITY,Hindi/Hinglish (Roman),synthetic,False
+SYN-0652,"Lab hours bahut kam hain, practice ke liye extra session chahiye.",NEEDS_ATTENTION,PACING_AND_TIME,Hindi/Hinglish (Roman),synthetic,False
+SYN-0683,"Class mein participation encourage nahi hota, interactive activities add kijiye.",NEEDS_ATTENTION,PRACTICAL_LAB,Hindi/Hinglish (Roman),synthetic,False
+SYN-0701,"The faculty is supportive, but the projector or display is difficult to read. Please check the projector and display before class.",NEEDS_ATTENTION,FACILITIES_AND_EQUIPMENT,English,synthetic,False
+SYN-0703,The lab environment makes it difficult to complete experiments. Please arrange a backup system when equipment fails. This issue comes up repeatedly.,NEEDS_ATTENTION,FACILITIES_AND_EQUIPMENT,English,synthetic,False
+SYN-0707,There are not enough working computers for the class. Please improve the internet reliability. It would help students learn more effectively.,NEEDS_ATTENTION,FACILITIES_AND_EQUIPMENT,English,synthetic,False
+SYN-0714,Assignment ki deadline aur requirements last moment par batayi jaati hain.,NEEDS_ATTENTION,NOTES_AND_MATERIALS,Hindi/Hinglish (Roman),synthetic,False
+SYN-0745,Teaching achhi ho sakti hai lekin difficult topics ke liye extra examples chahiye.,NEEDS_ATTENTION,DOUBT_SUPPORT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0776,"Sir, code ka output bata dete hain par debugging ka process nahi samjhate.",NEEDS_ATTENTION,ASSESSMENT_AND_FAIRNESS,Hindi/Hinglish (Roman),synthetic,False
+SYN-0801,"The class has potential, but the order of topics makes the subject difficult to follow. Please provide practice sessions before examinations.",NEEDS_ATTENTION,COURSE_PLANNING,English,synthetic,False
+SYN-0807,"Slides mein bahut text hai aur diagrams nahi hain, notes ko concise banaiye.",NEEDS_ATTENTION,COMMUNICATION_AND_ENGAGEMENT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0838,"Evaluation transparent nahi lagti, please marks ke criteria clearly explain kijiye.",NEEDS_ATTENTION,FACILITIES_AND_EQUIPMENT,Hindi/Hinglish (Roman),synthetic,False
+SYN-0869,"Class ke dauran doubts poochne mein hesitation hota hai, environment comfortable banaiye.",NEEDS_ATTENTION,COURSE_PLANNING,Hindi/Hinglish (Roman),synthetic,False
+SYN-0900,"Lab systems slow hain aur kai computers working nahi hain, please repair karwaiye.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,Hindi/Hinglish (Roman),synthetic,False
+SYN-0901,"The subject is useful, however academic concerns are not followed up consistently. Please provide guidance when students are struggling.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-0906,I am finding it difficult because the classroom interaction sometimes feels disrespectful. Please give students constructive feedback. This makes preparation more difficult.,NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-0910,Students are facing difficulty because the classroom interaction sometimes feels disrespectful. Please clarify assignment requirements and deadlines in advance. More support is needed in this area.,NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-0914,Students are facing difficulty because the instructor sometimes responds impatiently to student questions. Please give students constructive feedback. More support is needed in this area.,NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-0925,"The faculty is supportive, but the classroom interaction sometimes feels disrespectful. Please explain any changes to instructions clearly.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-0942,"With respect, the instructor sometimes responds impatiently to student questions. Please explain any changes to instructions clearly. Please consider this feedback seriously.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-0961,"The instructor is helpful at times, but the classroom interaction sometimes feels disrespectful. Please communicate respectfully and patiently.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
+SYN-1000,"Some parts of the class are good, but students are unsure how to approach the instructor for academic support; please follow up on unresolved academic issues.",NEEDS_ATTENTION,STUDENT_SUPPORT_AND_PROFESSIONALISM,English,synthetic,False
