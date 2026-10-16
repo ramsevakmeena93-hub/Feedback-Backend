@@ -81,6 +81,7 @@ const CLEAR_NEGATIVE = [
   /notes de dia kro/i,/ppts on time/i,/notes on time/i,
   /never seen/i,/have never seen/i,/we have never seen/i,
   /irregular/i,/absent/i,/class miss/i,/class nahi/i,/late aate/i,
+  /always comes late/i,/comes late/i,/come late/i,/is late/i,/always late/i,
   /need to improve/i,/needs improvement/i,/should improve/i,/must improve/i,
   /hope he improve/i,/hope she improve/i,/please improve/i,
   /average/i,/bad/i,/poor/i,/worst/i,/terrible/i,/boring/i,/not engaging/i,
